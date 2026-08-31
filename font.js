@@ -1,0 +1,1 @@
+(()=>{const d=p=>{const s=atob(p.join(''));const b=new Uint8Array(s.length);for(let i=0;i<s.length;i++)b[i]=s.charCodeAt(i);return URL.createObjectURL(new Blob([b],{type:'font/woff2'}))};const l=async(n,p)=>{const f=new FontFace(n,`url(${d(p)}) format('woff2')`);await f.load();document.fonts.add(f)};Promise.all([l('TX',window.FTX||[]),l('HY',window.FHY||[])]).catch(()=>{})})();
