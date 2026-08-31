@@ -1,0 +1,1 @@
+Chinese and English webfonts are bundled for site rendering. Font binary assets are not exposed as user-download artifacts.
